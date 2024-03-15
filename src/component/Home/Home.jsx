@@ -1,29 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Banner from './Banner/Banner';
 
 const Home = () => {
   return (
     <>
-    <h1>Home1</h1>
-    <h1>Home2</h1>
-    <h1>Home</h1>
-    <h1>Home</h1>
-    <h1>Home</h1>
-    <h1>Home</h1>
-    <h1>Home</h1>
-    <h1>Home</h1>
-    <h1>Home</h1>
-    <h1>Home</h1>
-    <h1>Home</h1>
-    <h1>Home</h1>
-    <h1>Home</h1>
-
-    <h1>Home</h1>
-
-    <h1>Home</h1>
-
-
+      <Banner />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
