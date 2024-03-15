@@ -1,6 +1,6 @@
 import React from 'react';
-import "./Header.css";
-
+// import "./Header.css";
+import "./header.css";
 import { NavLink } from "react-router-dom";
 import elogo from "../../assets/elogo.png";
 import searchicon from "../../assets/searchicon.png";
@@ -25,32 +25,32 @@ function Header() {
       <ul id="menu-links" className={showMenu ? 'show-menu' : ''}>
         
               <li className="nav-link">
-                <NavLink  to="#"  style={{ color: '#fff', textDecoration: 'none' }}>
+                <NavLink  to="#"  >
                   Home
                 </NavLink>
               </li>
               <li className="nav-link">
-                <NavLink  to="#"  style={{ color: '#ffffff', textDecoration: 'none' }}>
+                <NavLink  to="#"  >
                  Category
                 </NavLink>
               </li>
               <li className="nav-link">
-                <NavLink  to="#"  style={{ color: '#fff', textDecoration: 'none' }}>
+                <NavLink  to="#" >
                   About
                 </NavLink>
               </li>
               <li className="nav-link">
-                <NavLink  to="#" style={{ color: '#fff', textDecoration: 'none' }}>
+                <NavLink  to="#">
                   Products
                 </NavLink>
               </li>
               <li className="nav-link">
-                <NavLink  to="#"  style={{ color: '#fff', textDecoration: 'none' }}>
+                <NavLink  to="#"  >
                   Blog
                 </NavLink>
               </li>
               <li className="nav-link">
-                <NavLink  to="#"  style={{ color: '#fff', textDecoration: 'none' }}>
+                <NavLink  to="#" >
                   Contact us
                 </NavLink>
               </li>

@@ -1,0 +1,70 @@
+.btn-box {
+  width: 250px;
+  height: 50px;
+  /* background: yellowgreen; */
+  display: flex;
+  justify-content: space-between;
+}
+.btn-box .btn {
+  position: relative;
+  display: inline-flex;
+  /* becuase height property does not work on  inline */
+  width: 150px;
+  height: 100%;
+  border: 2px solid #00abf0;
+  background-color: #00abf0;
+  border-radius: 8px;
+  font-size: 19px;
+  color: #081b29;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-right: 10px;
+}
+.btn-box .btn:hover {
+  color: #00abf0;
+}
+.btn-box .btn:nth-child(2) {
+  background: transparent;
+  color: #00abf0;
+}
+.btn-box .btn:nth-child(2):hover {
+  color: #081b29;
+}
+.btn-box .btn:nth-child(2)::before {
+  background: #00abf0;
+}
+.btn-box .btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #081b29;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.btn-box .btn:hover::before {
+  width: 100%;
+}
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #00abf0;
+}
+p {
+  font-size: 16px;
+  margin: 20px 0 40px;
+}

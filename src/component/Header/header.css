@@ -14,6 +14,7 @@ nav {
   background-color: #212529;
   height:60px;
   
+  
 }
 
 
@@ -98,12 +99,13 @@ nav .logo {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  color: #fff;
 }
 
 .nav-link:hover {
-  background: #474747;
-  padding: 10px 16px !important;
-  border-radius: 20px;
+  color: red !important;
+  
+  
 }
 
 .search-cart-like img {
@@ -112,4 +114,20 @@ nav .logo {
   width: 48px;
   height: 48px;
   margin-right: 1rem;
+}
+ a
+{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    
+    transition: .3s;
+
+}
+
+ a:hover
+
+{
+    color: #25ea6a;
 }
