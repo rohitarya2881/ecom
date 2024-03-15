@@ -131,3 +131,25 @@ nav .logo {
 {
     color: #25ea6a;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .search-cart-like img {
+    padding: 2px !important;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    margin-right: 0.2rem;
+  }
+nav {
+ padding-right: 0;
+};  
+}
+
+
+
+
+
+

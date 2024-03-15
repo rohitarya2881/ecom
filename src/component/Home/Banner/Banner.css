@@ -1,3 +1,7 @@
+.Banner_1
+{
+    background-color: #edf2ebee;
+}
 .btn-box {
   width: 250px;
   height: 50px;
@@ -68,3 +72,61 @@ p {
   font-size: 16px;
   margin: 20px 0 40px;
 }
+
+
+
+
+
+
+
+/* For mobile devices */
+@media only screen and (max-width: 768px) {
+    .banner_col1 {
+      padding: 20px; /* Adjust padding for smaller screens */
+    }
+  
+    .banner_col1 h1 {
+      font-size: 36px; /* Decrease font size for smaller screens */
+    }
+  
+    .banner_col1 h3 {
+      font-size: 24px; /* Decrease font size for smaller screens */
+    }
+  
+    .btn-box {
+      width: 100%; /* Make the button box full width on mobile */
+      display: flex;
+      flex-direction: column; /* Stack buttons vertically on mobile */
+    }
+  
+    .btn-box .btn {
+      width: 100%; /* Make buttons full width on mobile */
+      margin-bottom: 10px; /* Add some vertical space between buttons */
+    }
+  
+    .btn-box .btn:nth-child(2) {
+      background: #00abf0;
+      color: #081b29;
+      border: 2px solid #00abf0;
+    }
+  
+    .btn-box .btn:nth-child(2):hover {
+      color: #00abf0;
+    }
+  
+    .btn-box .btn:nth-child(2)::before {
+      background: transparent;
+    }
+  
+    .btn-box .btn:before {
+      content: none; /* Hide pseudo-element on mobile */
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .banner_col1 p {
+      display: none;
+    }
+  
+  }
+
+  

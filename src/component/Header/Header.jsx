@@ -58,9 +58,9 @@ function Header() {
       </ul>
 
       <div className="search-cart-like">
-        <img src={searchicon} alt="Search" width="36px" height="36px" className="me-3" />
-        <img src={carticon} alt="Cart" width="36px" height="36px" />
-        <img src={hearticon} alt="Cart" width="36px" height="36px" />
+        <img src={searchicon} alt="Search" width="24px" height="24px" className="me-3" />
+        <img src={carticon} alt="Cart" width="24px" height="24px" />
+        <img src={hearticon} alt="Cart" width="24px" height="24px" />
 
         <img
           src={menuicon}
