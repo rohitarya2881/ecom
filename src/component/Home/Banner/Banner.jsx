@@ -41,6 +41,8 @@ const Banner = () => {
               <div className="col-md-6">
                 <div className="banner_image">
                   <img src={img2} alt="Black Headphones"  className="img-fluid" />
+                  <img src={img1} alt="Black Headphones"  className="img-fluid show-second" />
+
                 </div>
               </div>
             </div>
@@ -72,6 +74,8 @@ const Banner = () => {
               <div className="col-md-6">
                 <div className="banner_image">
                   <img src={img1} alt="Blue Headphones"  className="img-fluid" />
+                  <img src={img2} alt="Black Headphones"  className="img-fluid show-second" />
+
                 </div>
               </div>
             </div>

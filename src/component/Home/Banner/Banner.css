@@ -1,6 +1,19 @@
+:root{
+        --border-color-main: #e8e8e8;
+        --text-color: #000;
+        --border-color-category: #3074f0;
+    
+    }
 .Banner_1
 {
-    background-color: #edf2ebee;
+    
+    
+    border: 2px solid var(--border-color-main);
+    margin: 0.8rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    
 }
 .btn-box {
   width: 250px;
@@ -99,31 +112,31 @@ p {
       flex-direction: column; /* Stack buttons vertically on mobile */
     }
   
-    .btn-box .btn {
+    .btn-box  {
       width: 100%; /* Make buttons full width on mobile */
       margin-bottom: 10px; /* Add some vertical space between buttons */
     }
   
     .btn-box .btn:nth-child(2) {
-      background: #00abf0;
-      color: #081b29;
-      border: 2px solid #00abf0;
+     
+      margin-top: 5px;
     }
-  
-    .btn-box .btn:nth-child(2):hover {
-      color: #00abf0;
-    }
-  
-    .btn-box .btn:nth-child(2)::before {
-      background: transparent;
-    }
-  
-    .btn-box .btn:before {
-      content: none; /* Hide pseudo-element on mobile */
-    }
+  .banner_image img {
+ width: 40vw
+  };
+ 
+    
   }
+  
   @media only screen and (max-width: 768px) {
     .banner_col1 p {
+      display: none;
+    }
+  
+  }
+
+  @media only screen and (min-width: 768px) {
+    .show-second {
       display: none;
     }
   
