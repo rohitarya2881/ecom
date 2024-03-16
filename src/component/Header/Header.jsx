@@ -21,41 +21,44 @@ function Header() {
   return (
     <nav >
       <img src={elogo} alt="" className="logo" />
-
-      <ul id="menu-links" className={showMenu ? 'show-menu' : ''}>
-        
-              <li className="nav-link">
+      
+      <ul id="menu-links"  className={showMenu ? 'show-menu' : ''} >
+             <div className='li-element'>
+              <li className="nav-link a1">
                 <NavLink  to="#"  >
                   Home
                 </NavLink>
               </li>
-              <li className="nav-link">
+              <li className="nav-link a2">
                 <NavLink  to="#"  >
                  Category
                 </NavLink>
               </li>
-              <li className="nav-link">
+              <li className="nav-link a3">
                 <NavLink  to="#" >
                   About
                 </NavLink>
               </li>
-              <li className="nav-link">
+              <li className="nav-link a4">
                 <NavLink  to="#">
                   Products
                 </NavLink>
               </li>
-              <li className="nav-link">
+              <li className="nav-link a5">
                 <NavLink  to="#"  >
                   Blog
                 </NavLink>
               </li>
-              <li className="nav-link">
+              <li className="nav-link a6">
                 <NavLink  to="#" >
                   Contact us
                 </NavLink>
               </li>
-            
-      </ul>
+              <div className="underbars"></div>
+
+              </div>
+      </ul>              
+      
 
       <div className="search-cart-like">
         <img src={searchicon} alt="Search" width="24px" height="24px" className="me-3" />

@@ -12,7 +12,7 @@ const Banner = () => {
     <div className="Banner_main">
       <Swiper
         scrollbar={{ draggable: true, hide: true }}
-        autoplay={{ delay: 40000, disableOnInteraction: false }}
+        autoplay={{ delay: 1900, disableOnInteraction: false }}
         modules={[Autoplay, Scrollbar]}
         className="mySwiper"
       >
