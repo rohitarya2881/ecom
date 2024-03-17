@@ -1,0 +1,74 @@
+.Product_main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust as needed */
+    gap: 1rem;
+  }
+  
+  .Product_main .col {
+    padding: 0; /* Remove default padding */
+  }
+  
+  .Product_main .card {
+    border: none; /* Remove default border */
+    height: 100%; /* Fill parent height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Product_main .card_head {
+    flex-grow: 1; /* Allow the image to take up remaining space */
+  }
+  
+  .Product_main img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .Product_main .card-body {
+    padding: .1rem; /* Add padding as needed */
+  }
+  
+  .Product_main .Product_name {
+    margin-bottom: 0.1rem; /* Add margin-bottom to separate elements */
+  }
+  
+  .Product_main .icons {
+    margin-bottom: 0rem; /* Add margin-bottom to separate elements */
+  }
+  
+  .Product_main .Product_price {
+    margin-bottom: 0px; /* Remove margin-bottom for last element */
+  }
+  .card-body
+  {
+    position: relative;
+  }
+  .card-body p
+  {
+       position: absolute;
+       top:60%;
+  }
+  .card_head
+  {
+    position: relative;
+  }
+  .cart {
+    position: absolute;
+    top: 150px;
+    left: 160px;
+    background: #fff;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add box shadow */
+  }
+  
+  .cart:hover {
+    transform: scale(1.3);
+    background: rgba(53, 245, 101, 0.932);
+  }
+  
