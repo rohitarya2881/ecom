@@ -11,8 +11,8 @@ const Product = () => {
         <div className="col">
         <div className="card border-0 h-100">
           <div className="card_head">
-            <img src={img1} alt="" width="190px"/>
-            <i class="fa fa-cart-plus cart" aria-hidden="true"></i>
+            <img src={img1} alt=""/>
+            <i className="fa fa-cart-plus cart" aria-hidden="true"></i>
 
           </div>
           <div className="card-body">
