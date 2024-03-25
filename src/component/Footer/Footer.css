@@ -1,0 +1,37 @@
+:root {
+    --dark-color: #3074f0;
+    --primary-color: #f7c9d2;
+    --light-color: #f5f5f5;
+    --success-color: #888888;
+    --nav-color: #000000cd;
+    --font-color: #ffffff;
+  }
+
+.container{
+    background: var(--light-color);
+}
+.logo {
+  width: 45px;
+}
+.footer_col2 li {
+  padding: .3rem;
+}
+.footer-link a {
+  color: rgb(83, 83, 83) !important;
+  
+}
+li:hover{
+    transition: 1s;
+}
+
+a:hover{
+    text-shadow: none;
+
+}
+i{
+    padding: .5rem;
+    
+}
+.fa-regular{
+    padding: 0;
+}

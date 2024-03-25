@@ -48,13 +48,13 @@
 }
 .btn-box .btn:nth-child(2) {
   background: transparent;
-  color: #00abf0;
+  color: #00abf0 !important;
 }
 .btn-box .btn:nth-child(2):hover {
-  color: #081b29;
+  color: #081b29 !important;
 }
 .btn-box .btn:nth-child(2)::before {
-  background: #00abf0;
+  background: #00abf0 !important;
 }
 .btn-box .btn:before {
   content: "";

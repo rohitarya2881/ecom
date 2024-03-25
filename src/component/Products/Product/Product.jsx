@@ -24,7 +24,7 @@ const Product = () => {
               <i className="fa-solid fa-star"></i>
               <i className="fa-solid fa-star"></i>
             </div>
-            <p className="Product_price">$50</p>
+            <p className="Product_price">$60</p>
           </div>
         </div></div>
       </div>

@@ -91,6 +91,9 @@ nav .logo {
     height: 48px;
     margin-right: 0rem;
   }
+  a{
+    color: #fff !important;
+  }
 }
 .nav-link {
   font-size: 16px;
@@ -117,7 +120,7 @@ nav .logo {
   margin-right: 1rem;
 }
 
- a
+ .menu-links a
 {
     font-size: 18px;
     color: #ededed;
@@ -128,7 +131,7 @@ nav .logo {
 
 }
 
- a:hover
+.menu-links a:hover
 
 {
   text-shadow: 0px -2px 0px rgba(0,0,0,1), 0 0 5px rgba(255,255,255,0.8),0 -4px 15px rgba(255,255,255,0.5);

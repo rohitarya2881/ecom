@@ -5,7 +5,9 @@
     cursor: pointer;
     
   }
-  
+  .fa-solid{
+    padding: 0;
+  }
   .Product_main .col {
     padding: 0; /* Remove default padding */
   }

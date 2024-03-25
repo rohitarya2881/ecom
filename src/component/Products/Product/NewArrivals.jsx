@@ -6,7 +6,7 @@ const NewArrivals = () => {
     <>
       <div className="container gx-0 ">
         <h3 className="NewArrivalHeading">New Arrival</h3>
-        <div className="row gx-0 align-items-center">
+        <div className="row gx-0 ">
           <div className="col-md-6">
             <div className="NewArrival_col1">
                 <h3 className="ProductName">Iphone 16 Pro Max</h3>

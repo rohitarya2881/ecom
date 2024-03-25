@@ -4,7 +4,7 @@
   --dark-color: #3074f0;
   --primary-color: #f7c9d2;
   --light-color: #f5f5f5;
-  --success-color: #888888;
+  --success-color: #8888888f;
   --nav-color: #000000cd;
   --font-color: #ffffff;
 }
@@ -13,9 +13,12 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body{
   padding: 60px;
+  box-sizing: border-box;
+  background-color: var(--success-color);
   
 }
 
@@ -45,7 +48,9 @@ p {
   padding: 5px !important;;
  }
 }
-
+a{
+  text-decoration: none !important;
+}
 
 
 
