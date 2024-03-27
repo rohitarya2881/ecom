@@ -84,7 +84,7 @@
     @media screen and (min-width: 470px) {
         .Product_main{
             border: 2px solid var(--border-color-main);
-            margin: 0.8rem;
+            margin-bottom: 0.8rem;
             padding: 0.5rem;
             border-radius: 5px;
             cursor: pointer;

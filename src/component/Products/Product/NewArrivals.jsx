@@ -4,7 +4,7 @@ import "./NewArrival.css";
 const NewArrivals = () => {
   return (
     <>
-      <div className="container gx-0 ">
+      <div className="container gx-0 Arrivalsbox">
         <h3 className="NewArrivalHeading">New Arrival</h3>
         <div className="row gx-0 ">
           <div className="col-md-6">

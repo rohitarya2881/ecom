@@ -1,6 +1,6 @@
 .Discount
 {
-    background-color: rgb(202, 240, 255);
+    background: radial-gradient(666px at 0.4% 48%, rgb(202, 204, 227) 0%, rgb(89, 89, 99) 97.5%) !important;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
 }

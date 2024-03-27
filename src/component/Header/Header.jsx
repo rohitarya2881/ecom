@@ -32,10 +32,11 @@ function Header() {
       <img src={elogo} alt="" className="logo" />
       <div className="list-search">
         {showSearch && (
+          <form>
           <div className="search-input">
             <input type="text" placeholder="Search..." />
-            <i class="fa fa-search" aria-hidden="true"></i>
-          </div>
+           <button type="submit"> <i class="fa fa-search" aria-hidden="true"></i></button>
+          </div></form>
         )}
         <ul
           id="menu-links"
@@ -73,7 +74,7 @@ function Header() {
           alt="Search"
           width="24px"
           height="24px"
-          className="me-3"
+          className={` ${showSearch ? "cross-icon" : ""}`}
           onClick={toggleSearch}
         />
         <img

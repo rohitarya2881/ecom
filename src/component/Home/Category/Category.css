@@ -29,3 +29,9 @@ box-shadow: 1px 6px 10px -1px rgb(116,116,116);
     }
   
 }
+.Full_main_category{
+    background-color: #f1f1f1 !important;
+}
+.home_category{
+    background-color: #ffffffea !important;
+}
