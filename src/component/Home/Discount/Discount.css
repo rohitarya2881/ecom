@@ -7,8 +7,14 @@
 .Discount img{
     filter: drop-shadow(5px 5px 10px #000000);
 }
-.btn
+.banner_col1 .btn
 {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: #5f5e5e !important;
+    margin-right: 5px !important;
 
+}
+
+.banner_col1 .btn:hover{
+    color: aliceblue !important;
 }

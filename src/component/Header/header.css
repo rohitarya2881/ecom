@@ -17,6 +17,33 @@ nav {
   
 }
 
+/* search input  */
+
+.search-input {
+  position: relative;
+}
+
+.search-input input[type="text"] {
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  width: 200px; /* Width of the input field */
+}
+
+.search-input i.fa {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #555; /* Color of the search icon */
+}
+
+
+
+
+
+/* search input */
 
 
 
@@ -138,7 +165,9 @@ nav .logo {
 
 }
 
-
+.hide-ul,.hide-search-cart-like{
+  display: none;
+}
 
 
 @media only screen and (max-width: 1290px) {
@@ -151,6 +180,7 @@ nav .logo {
     margin-right: 0.2rem;
   }
 nav {
+ padding-left:  0;
  padding-right: 0;
 };  
 }

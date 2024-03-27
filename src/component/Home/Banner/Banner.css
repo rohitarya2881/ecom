@@ -1,145 +1,23 @@
-:root{
-        --border-color-main: #e8e8e8;
-        --text-color: #000;
-        --border-color-category: #3074f0;
-    
-    }
-.Banner_1
-{
-    
-    
-    border: 2px solid var(--border-color-main);
-    margin: 0.8rem;
-    padding: 0.5rem;
-    border-radius: 5px;
-    cursor: pointer;
-    
+.banner_image{
+ border:  7px solid #9e9797;
+ height: 25vh;
 }
-.btn-box {
-  width: 250px;
-  height: 50px;
-  /* background: yellowgreen; */
-  display: flex;
-  justify-content: space-between;
-}
-.btn-box .btn {
-  position: relative;
-  display: inline-flex;
-  /* becuase height property does not work on  inline */
-  width: 150px;
+.banner_image img{
   height: 100%;
-  border: 2px solid #00abf0;
-  background-color: #00abf0;
-  border-radius: 8px;
-  font-size: 19px;
-  color: #081b29;
-  text-decoration: none;
-  font-weight: 600;
-  letter-spacing: 1px;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  overflow: hidden;
-  transition: 0.5s;
-  margin-right: 10px;
-}
-.btn-box .btn:hover {
-  color: #00abf0;
-}
-.btn-box .btn:nth-child(2) {
-  background: transparent;
-  color: #00abf0 !important;
-}
-.btn-box .btn:nth-child(2):hover {
-  color: #081b29 !important;
-}
-.btn-box .btn:nth-child(2)::before {
-  background: #00abf0 !important;
-}
-.btn-box .btn:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: #081b29;
-  z-index: -1;
-  transition: 0.5s;
-}
-
-.btn-box .btn:hover::before {
   width: 100%;
+  object-fit: cover;
 }
-h1 {
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.2;
-}
-h3 {
-  font-size: 32px;
-  font-weight: 700;
-  color: #00abf0;
-}
-p {
-  font-size: 16px;
-  margin: 20px 0 40px;
+.btn{
+  padding: 5px;
 }
 
-
-
-
-
-
-
-/* For mobile devices */
 @media only screen and (max-width: 768px) {
-    .banner_col1 {
-      padding: 20px; /* Adjust padding for smaller screens */
-    }
-  
-    .banner_col1 h1 {
-      font-size: 36px; /* Decrease font size for smaller screens */
-    }
-  
-    .banner_col1 h3 {
-      font-size: 24px; /* Decrease font size for smaller screens */
-    }
-  
-    .btn-box {
-      width: 100%; /* Make the button box full width on mobile */
-      display: flex;
-      flex-direction: column; /* Stack buttons vertically on mobile */
-    }
-  
-    .btn-box  {
-      width: 100%; /* Make buttons full width on mobile */
-      margin-bottom: 10px; /* Add some vertical space between buttons */
-    }
-  
-    .btn-box .btn:nth-child(2) {
-     
-      margin-top: 5px;
-    }
-  .banner_image img {
- width: 40vw
-  };
- 
-    
-  }
-  
-  @media only screen and (max-width: 768px) {
-    .banner_col1 p {
-      display: none;
-    }
-  
-  }
-
-  @media only screen and (min-width: 768px) {
-    .show-second {
-      display: none;
-    }
-
-  }
-
-  
+  /* For mobile phones: */
+ .banner_image{
+  height: 20vh;
+ }
+ .banner_image img{
+  height: 20vh;
+  object-fit:cover;
+ }
+}

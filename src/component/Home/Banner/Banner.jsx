@@ -3,8 +3,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/scrollbar";
 import { Autoplay, Scrollbar } from "swiper/modules";
-import img1 from "../../../assets/blackheadphone.png";
-import img2 from "../../../assets/neckband.png";
+import img1 from "../../../assets/banner/1.png";
+import img2 from "../../../assets/banner/4.png";
+import img3 from "../../../assets/banner/3.jpg";
+import img4 from "../../../assets/banner/2.jpg";
+
 import { NavLink } from "react-router-dom";
 import "./Banner.css";
 const Banner = () => {
@@ -12,7 +15,7 @@ const Banner = () => {
     <div className="Banner_main">
       <Swiper
         scrollbar={{ draggable: true, hide: true }}
-        autoplay={{ delay: 1900, disableOnInteraction: false }}
+        autoplay={{ delay: 190000, disableOnInteraction: false }}
         modules={[Autoplay, Scrollbar]}
         className="mySwiper"
       >
@@ -20,7 +23,7 @@ const Banner = () => {
           <div className="container-fluid Banner_1">
             <div className="container gx-0">
             <div className="row gx-0 align-items-center">
-              <div className="col-md-6">
+              {/* <div className="col-md-6">
                 <div className="banner_col1 pt-md-4">
                   <h1>
                     Welcome <span>Deal</span> Your{" "}</h1>
@@ -37,11 +40,10 @@ const Banner = () => {
                 <NavLink to="#" className="btn">Sale</NavLink>
             </div>
                 </div>
-              </div>
-              <div className="col-md-6">
+              </div> */}
+              <div className="col-12">
                 <div className="banner_image">
                   <img src={img2} alt="Black Headphones"  className="img-fluid" />
-                  <img src={img1} alt="Black Headphones"  className="img-fluid show-second" />
 
                 </div>
               </div>
@@ -53,7 +55,7 @@ const Banner = () => {
           <div className="container-fluid Banner_1">
             <div className="container gx-0">
             <div className="row gx-0 align-items-center">
-              <div className="col-md-6">
+              {/* <div className="col-md-6">
                 <div className="banner_col1 pt-md-4">
                   <h1>
                     Welcome <span>Deal</span> Your{" "}</h1>
@@ -70,11 +72,10 @@ const Banner = () => {
                 <NavLink to="#" className="btn">Sale</NavLink>
             </div>
                 </div>
-              </div>
-              <div className="col-md-6">
+              </div> */}
+              <div className="col-12">
                 <div className="banner_image">
                   <img src={img1} alt="Blue Headphones"  className="img-fluid" />
-                  <img src={img2} alt="Black Headphones"  className="img-fluid show-second" />
 
                 </div>
               </div>

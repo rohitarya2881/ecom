@@ -51,8 +51,10 @@
   .card-body p
   {
        position: absolute;
-       top:45%;
+       top:0%;
+       left: 75%;
        margin-left: .5rem;
+       color: rgb(44, 44, 44);
   }
   .card_head
   {

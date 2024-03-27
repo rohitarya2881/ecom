@@ -16,7 +16,7 @@
   box-sizing: border-box;
 }
 body{
-  padding: 60px;
+  margin-top: 70px !important;
   box-sizing: border-box;
   background-color: var(--success-color);
   
@@ -41,7 +41,7 @@ p {
 @media only screen and (max-width: 768px) {
   body {
     
-    padding: 60px 0 0;;
+    padding: 20px 0 0;;
   }
  .search-cart-like
  {
@@ -54,3 +54,7 @@ a{
 
 
 
+.container{
+  margin-top :0 !important;
+  padding-top: 0 !important;
+}

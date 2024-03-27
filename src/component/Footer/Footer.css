@@ -9,6 +9,7 @@
 
 .container{
     background: var(--light-color);
+    margin-top: 4rem;
 }
 .logo {
   width: 45px;
