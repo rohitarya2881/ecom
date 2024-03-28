@@ -7,19 +7,35 @@ import searchicon1 from "../../assets/searchicon.png";
 import crossicon from "../../assets/closeicon.png";
 
 import hearticon from "../../assets/heart.png";
-import menuicon from "../../assets/menu.png";
+import menuicon from "../../assets/menuicon.png";
 
 import carticon from "../../assets/carticon.png";
 import { useState } from "react";
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
+  const [showPreviousState, setPreviousState] = useState(true);
+
   const [showSearch, setShowSearch] = useState(false);
   const [searchIconSrc, setSearchIconSrc] = useState(searchicon1);
 
   const toggleMenu = () => {
+    setPreviousState(showMenu);
     setShowMenu(!showMenu);
   };
+  document.body.onclick = () => {
+    if(showMenu)
+    {
+      setPreviousState(!showPreviousState);
+    }
+    if(showMenu && showPreviousState)
+    {
+      setShowMenu(false)
+    }
+    console.log(showMenu)
+    // Close the menu
+  };
+  
   const toggleSearch = () => {
     setShowSearch(!showSearch);
     setSearchIconSrc(searchIconSrc === searchicon1 ? crossicon : searchicon1);
@@ -55,7 +71,7 @@ function Header() {
               <NavLink to="/about">About</NavLink>
             </li>
             <li className="nav-link a4">
-              <NavLink to="#">Products</NavLink>
+              <NavLink to="/products">Products</NavLink>
             </li>
            
             <li className="nav-link a6">

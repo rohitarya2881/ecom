@@ -102,15 +102,15 @@ const Footer = () => {
                 <h4>Contact Us</h4>
             <li className="footer-link list-unstyled">
                 <NavLink  to="#"  >
-                <i class="fa-solid fa-phone"></i>1234-1234-1234
+                <i className="fa-solid fa-phone"></i>1234-1234-1234
                 </NavLink>
               </li>
-              <li className="footer-link list-unstyled"><NavLink  to="#"  ><i class="fa-regular fa-paper-plane"></i>abbcdef@exampl.com
+              <li className="footer-link list-unstyled"><NavLink  to="#"  ><i className="fa-regular fa-paper-plane"></i>abbcdef@exampl.com
                 </NavLink>
               </li>
               <li className="footer-link list-unstyled">
                 <NavLink  to="#" >
-                <i class="fa-solid fa-location-dot"></i>Sector 36 , Gurugram
+                <i className="fa-solid fa-location-dot"></i>Sector 36 , Gurugram
                 </NavLink>
               </li>
            

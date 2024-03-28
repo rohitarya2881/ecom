@@ -121,6 +121,11 @@ nav .logo {
   .menu-icon {
     display: inline;
     width: 30px;
+    /* background-color: #fff; */
+    
+  }
+  .menu-icon img{
+      color:white;
   }
   .show-menu {
     max-height: 90vh ;

@@ -4,7 +4,7 @@ const NewsLetter = () => {
   return (
     <>
 
-    <div className="NewsLetter">
+    <div className="NewsLetter py-3">
         <div className="container gx-0">
             <div className="row gx-0">
                 <div className="col-md-6">
