@@ -11,7 +11,7 @@ const Arrivals = () => {
       <div className="container gx-0 Arrivals">
         
         <div className="row gx-0 align-items-center Arrival_main">
-          <div className="col-md-4 col-sm-12">
+          <div className="col-6">
             <div className="Arrivals_col1 text-center">
             
               <img
@@ -20,7 +20,7 @@ const Arrivals = () => {
                 className="img-fluid"
                 
               /></div></div>
-              <div className="col-md-8 col-sm-12">
+              <div className="col-6">
                 <div className="Arrivals_col2">
                    
                     <p className="Product_name">HeadPhones</p>

@@ -19,6 +19,7 @@ body{
   margin-top: 60px !important;
   box-sizing: border-box;
   background-color: rgb(233, 233, 233) !important ;
+  overflow-x: hidden;
   
 }
 .Products_main{

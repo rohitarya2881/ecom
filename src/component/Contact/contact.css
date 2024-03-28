@@ -1,0 +1,120 @@
+/* Styles for contact section */
+.contact {
+    padding: 50px 0;
+  }
+  
+  /* Styles for main container */
+  .contact_main {
+    background-color: #f9f9f9;
+  }
+  
+  /* Styles for contact sections */
+  .contact_sec1,
+  .contact_sec2 {
+    padding: 20px;
+  }
+  
+  /* Styles for contact information */
+  .contact_h4 h4 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact_h4 p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  /* Styles for contact form */
+  .contact_sec2 form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .contact_btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact_btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for contact information items */
+  .contact_fm_1,
+  .contact_fm_2,
+  .contact_fm_3 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  .contact_fm_1 i,
+  .contact_fm_2 i,
+  .contact_fm_3 i {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact_fm_1 h4,
+  .contact_fm_2 h4,
+  .contact_fm_3 h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .contact_fm_1 h6,
+  .contact_fm_2 h6,
+  .contact_fm_3 h6 {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 0;
+  }
+  
+  .map-container {
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 aspect ratio (height: 9/16 * width) */
+    position: relative;
+    
+  }
+  
+  .map-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    
+  }
+  

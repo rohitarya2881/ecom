@@ -9,6 +9,7 @@ import About from "./component/About/About";
 
 import NewsLetter from "./component/Home/NewsLetter/NewsLetter";
 import Footer from "./component/Footer/Footer";
+import Contact from "./component/Contact/Contact";
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About/>} />
+        <Route path="/contact" element={<Contact/>} />
 
       </Routes>
       <NewsLetter/>

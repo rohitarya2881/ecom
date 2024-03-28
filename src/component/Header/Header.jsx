@@ -57,11 +57,9 @@ function Header() {
             <li className="nav-link a4">
               <NavLink to="#">Products</NavLink>
             </li>
-            <li className="nav-link a5">
-              <NavLink to="#">Blog</NavLink>
-            </li>
+           
             <li className="nav-link a6">
-              <NavLink to="#">Contact us</NavLink>
+              <NavLink to="/contact">Contact us</NavLink>
             </li>
             <div className="underbars"></div>
           </div>

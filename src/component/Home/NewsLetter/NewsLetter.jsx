@@ -14,14 +14,14 @@ const NewsLetter = () => {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <div className="NewsLetter_col2"></div>
+                    <div className="NewsLetter_col2">
                     <form action="">
                         <div className="form-input d-flex">
                             <input type="email" className="form-control"  placeholder="Enter Your Email"  ></input>
                             <button type="submit" className="btn btn-submit">Subscribe</button>
                         </div>
                     </form>
-                </div>
+                </div></div>
             </div>
         </div>
     </div>
