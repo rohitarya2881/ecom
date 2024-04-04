@@ -4,7 +4,7 @@ import "./Products.css";
 
 const Products = () => {
   return (
-    <div className="container gx-0">
+    <div className="products_container container gx-0">
       <h2>New Product</h2>
       <div className="row gx-0">
         {/* <div className="col-md-6"> */}

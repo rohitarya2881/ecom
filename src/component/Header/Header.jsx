@@ -91,13 +91,21 @@ function Header() {
           className={` ${showSearch ? "cross-icon" : ""}`}
           onClick={toggleSearch}
         />
-        <img
-          src={carticon}
-          alt="Cart"
-          width="24px"
-          height="24px"
-          className={showSearch ? "hide-search-cart-like" : ""}
-        />
+        
+        <div style={{ position: "relative", display: "inline-block" }}>
+  <img
+    src={carticon}
+    alt="Cart"
+    width="24px"
+    height="24px"
+    className={showSearch ? "hide-search-cart-like" : ""}
+  />
+  <span  className="cart-count">35</span>
+</div>
+
+
+        
+       
         <img
           src={hearticon}
           alt="Cart"

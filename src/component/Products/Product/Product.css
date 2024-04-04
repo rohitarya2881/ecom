@@ -69,7 +69,7 @@
   background-color: #dbdbdb;
   border-radius: 50%;
   transition: 1s;
-  margin-right: 10px;
+  
  }
   .cart:hover {
     transform: scale(1.05);
@@ -97,3 +97,11 @@
       }
       
 
+      @media screen and (max-width: 470px) {
+        .card{
+           padding: .9rem;
+           width: 46vw;
+        }
+            
+      }
+      
